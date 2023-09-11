@@ -1,0 +1,198 @@
+*{
+    direction: rtl;
+}
+body{ 
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container1{
+    display: grid;
+    grid-template-areas: "head head head"
+    " content1 content1 content1"
+    "foot foot foot"
+;
+
+}
+/* nav*/
+.head{
+    grid-area: head;
+    background-color: #94C4D2;
+  
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light 
+.navbar-nav .nav-link.active, .navbar-light .navbar-nav 
+.nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+  color: white;
+}
+.vl {
+    border-left: 1px solid #FFFFFF;
+    width: 0px;
+    height: 31px;
+    margin-top: 15px;
+  }
+  .card{
+      background-color: #F6F6F6;
+      border: none;
+      text-align: right;
+  }
+  .fas.fa-shopping-cart {
+    text-align: center;
+    margin: 10px;
+    width: 16.99px;
+    height: 14.93px;
+    color: white;
+    margin-top: 15px;
+}
+ .fa-search {
+    font-weight: 900;
+    width: 16px;
+    height: 16px;
+    color: white;
+    margin: 10px;
+    margin-top: 15px;
+    
+}
+.fas1{
+    
+    z-index: 3;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 252, 251, 0.5);
+    margin: 10px;
+    border-radius: 50%;
+}
+.buuton1{
+    width:154px ;
+    height:44px ;
+    background-color: rgba(255, 252, 251, 0.5);
+    color:white;
+   border-radius: 22px;
+   margin-right: 20px;
+    border: none;
+}
+/*content1*/
+.content1{
+    margin-top: 20px;
+    width:832px ;
+    height:542px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 160px;
+    display: grid;
+    grid-template-areas: "cont1 cont1 cont1"
+    "cont2 . cont3";
+    margin-bottom: 20px;
+}
+.content1 .cont1{
+    grid-area: cont1;
+    background-color: #CDB2C9;
+    width:738px ;
+    height:147px ;
+    margin-right: 45px;
+
+}
+.cont1{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 738px;
+    height: 147px;
+   background-image: url(../img/Group\ 66.png);
+   background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+.cont1 h1{
+    font-size: 22px;
+    margin-right: 20%;
+padding-top: 30px;
+}
+.cont1 p{
+    margin-right: 43%;
+    font-size: 14px;
+    text-align: right;
+
+}
+
+.cont2{
+    grid-area: cont2;
+}
+.cont2 td h1{
+    font-size: 24px;
+}
+.cont2 .one{
+    opacity: 0.5;
+padding-left: 30px;
+}
+.cont2 .img{
+    margin-top: 30px;
+
+}
+
+.cont2 .img img{
+    padding-left: 10px;
+}
+
+.cont2 .img .span1{
+    opacity: 0.5;
+    font-size: 16px;
+ 
+ }
+ .cont2 .img .span2{
+ 
+    font-size: 20px;
+ 
+ }
+
+.cont3{
+    grid-area: cont3;
+    margin-left: 30px;
+}
+.cont3 button{
+    width:267px ;
+    height:48px ;
+    background-color:#8A90BB ;
+    border:#8A90BB  ;
+    color: white;
+    font-size: 16px;
+}
+
+/*footer */
+.footer{
+    /* width: 1266px; */
+    height: 243.11px;
+    grid-area: foot;
+    background-image: url(../img/Group\ 35.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    
+}
+.footer button{
+    width:168px ;
+    height: 60px;
+    border:none ;
+    border-radius:20px ;
+    background-color:#8A90BB ;
+    color: white;
+    font-size:20px ;
+    margin-left: 350px;
+}
+.footer input{
+    margin-top: 120px;
+margin-left: 50px;
+    padding: 30px;
+    width:589px ;
+    height:60px ;
+    border:none ;
+    border-radius:24px ;
+    font-size: 17px;
+}

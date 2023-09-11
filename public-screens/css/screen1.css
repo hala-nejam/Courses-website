@@ -1,0 +1,137 @@
+*{
+    direction: rtl;
+}
+body{ 
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container1{
+    gap: 50px 5px;
+    display: grid;
+   grid-template-areas: "head  head  head"
+   "cont1 cont1 cont1"
+   "foot foot foot"
+ ;
+}
+/* nav*/.head{
+    grid-area: head;
+    background-color: #94C4D2;
+  
+}
+.navbar-light .navbar-nav .nav-link:focus,
+ .navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.vl {
+    border-left: 1px solid #FFFFFF;
+    width: 0px;
+    height: 31px;
+    margin-top: 15px;
+  }
+  .card{
+      background-color: #FAE8DE;
+      border: none;
+      text-align: right;
+  }
+  .fas.fa-shopping-cart {
+    text-align: center;
+    margin: 10px;
+    width: 16.99px;
+    height: 14.93px;
+    color: white;
+    margin-top: 15px;
+}
+ .fa-search {
+    font-weight: 900;
+    width: 16px;
+    height: 16px;
+    color: white;
+    margin: 10px;
+    margin-top: 15px;
+    
+}
+.fas1{
+    
+    z-index: 3;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 252, 251, 0.5);
+    margin: 10px;
+    border-radius: 50%;
+}
+.buuton1{
+    width:154px ;
+    height:44px ;
+    background-color: rgba(255, 252, 251, 0.5);
+    color:white;
+   border-radius: 22px;
+   margin-right: 20px;
+    border: none;
+}
+/*content1 */
+.content1{
+    width:1056px ;
+    /* height:2578px ; */
+    border:13px solid #F9FAFB ;
+    margin-right: 150px;
+}
+.cont1{
+    width: 790px;
+    margin-right: 90px;
+margin-top: 20px;
+}
+.cont1 p{
+    text-align: right;
+}
+.content1 h1{
+    font-size: 35px;
+    text-align: center;
+
+}
+.content1 h5{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+/*footer */
+.footer{
+    /* width: 1266px; */
+    height: 243.11px;
+    grid-area: foot;
+    background-image: url(../img/Group\ 35.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    
+}
+.footer button{
+    width:168px ;
+    height: 60px;
+    border:none ;
+    border-radius:20px ;
+    background-color:#8A90BB ;
+    color: white;
+    font-size:20px ;
+    margin-left: 350px;
+}
+.footer input{
+    margin-top: 120px;
+margin-left: 50px;
+    padding: 30px;
+    width:589px ;
+    height:60px ;
+    border:none ;
+    border-radius:24px ;
+    font-size: 17px;
+}
